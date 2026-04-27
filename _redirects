@@ -1,0 +1,3 @@
+# Redirect oumiskincare.com to oumi.skin
+https://oumiskincare.com/* https://oumi.skin/:splat 301!
+https://www.oumiskincare.com/* https://oumi.skin/:splat 301!
