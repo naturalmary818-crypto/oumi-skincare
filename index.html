@@ -43,6 +43,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script type="module" crossorigin src="/assets/index-DP25hKoh.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CrWFtoQJ.css">
+
+    <!-- Structured Data: Organisation + Product for Google Knowledge Panel -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://oumi.skin/#organization",
+          "name": "OUMI Skincare",
+          "url": "https://oumi.skin",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://oumi.skin/images/logo-dark.png",
+            "width": 400,
+            "height": 200
+          },
+          "image": [
+            "https://oumi.skin/images/product-hero.jpg",
+            "https://oumi.skin/images/hero-product.png",
+            "https://oumi.skin/images/nada-founder.jpg",
+            "https://oumi.skin/images/product-argan-flatlay.png",
+            "https://oumi.skin/images/packaging-stones.jpg",
+            "https://oumi.skin/images/product-dropper-dark.webp"
+          ],
+          "description": "OUMI is a premium Moroccan-Malaysian skincare brand. Our flagship YOUTH SERUM combines 100% cold-pressed Argan Oil with clinical-grade Pro-Retinol and Niacinamide — crafted to illuminate, restore, and renew.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Kuala Lumpur, Malaysia"
+          },
+          "sameAs": [
+            "https://www.instagram.com/oumiskincare",
+            "https://oumiskincare.com"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://oumi.skin/#website",
+          "url": "https://oumi.skin",
+          "name": "OUMI Skincare",
+          "description": "Ancient Ritual. Modern Science.",
+          "publisher": {
+            "@id": "https://oumi.skin/#organization"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OUMI Youth Serum",
+          "image": [
+            "https://oumi.skin/images/product-hero.jpg",
+            "https://oumi.skin/images/product-argan-flatlay.png",
+            "https://oumi.skin/images/product-dropper-dark.webp",
+            "https://oumi.skin/images/product-wood.webp",
+            "https://oumi.skin/images/serum-stone.jpg"
+          ],
+          "description": "100% cold-pressed Argan Oil fused with clinical-grade Pro-Retinol and Niacinamide. Halal certified. Crafted to illuminate, restore, and renew.",
+          "brand": {
+            "@type": "Brand",
+            "name": "OUMI Skincare"
+          },
+          "url": "https://oumi.skin"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
