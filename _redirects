@@ -2,5 +2,15 @@
 https://oumiskincare.com/* https://oumi.skin/:splat 301!
 https://www.oumiskincare.com/* https://oumi.skin/:splat 301!
 
+# Redirect old URL slugs (from Webador) to new clean URLs
+/our-story    /story    301
+/shop-now     /product  301
+/shop         /product  301
+/oumi-youth-serum  /product  301
+/youth-serum  /product  301
+/about        /story    301
+/about-us     /story    301
+/products     /product  301
+
 # SPA routing - serve index.html for all routes
 /*    /index.html   200
